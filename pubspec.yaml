@@ -1,0 +1,35 @@
+name: e_foodivoir
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  dot_navigation_bar: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_onboarding_slider: ^1.0.10
+  icons_plus: ^4.0.0
+  introduction_screen: ^3.1.11
+  line_icons: ^2.0.3
+  qr_code_scanner: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: font
+      fonts:
+        - asset: assets/fonts/Catorze27Style1-Medium.ttf
